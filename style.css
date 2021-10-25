@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    font-family: "Nosferatu", monospace;
+    text-align: center;
+    background-image: url("https://www.bissaulivros.com/wp-content/uploads/2020/08/1500x500_ed.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background: rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    font-family: "Nosferatu", monospace;
+    color: red;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    font-family: "Nosferatu", monospace;
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  #listaLivros img {
+    margin: 10px;
+  }
+  
+  .form-wrapper {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    font-family: "Nosferatu", monospace;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border-radius: 20px;
+  }
+  
+  .form-wrapper button {
+    font-family: "Nosferatu", monospace;
+    border: 0;
+    color: #ffffff;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+  
+  .form-wrapper button:hover {
+    opacity: 0.8;
+  }
+  
+  .minhaAutoria {
+    font-family: "Nosferatu", monospace;
+    color: red;
+  }
+  
+  .mensagem {
+    display: none;
+    position: absolute;
+    font-family: 'Nosferatu', monospace;
+    top: -100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    height: 20px;
+    border: 1px solid red;
+  }
+  
+  .itens {
+    display: inline-table;
+     margin: 15px 30px;
+  }
+  
+  .itens:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+  }
+  
+  .capas{
+    border-radius: 8px;
+    border: solid #2d0470 4px;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  h2{
+    color: red;
+    font-size: 20px;
+  }
+  
+  .impel{
+    width: 275px;
+    height: 388px;
+  }
+  
+  
